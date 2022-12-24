@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: sudo apt-get install -y doxygen
-      - run: doxygen Doxyfile
       - uses: actions/checkout@v2
         with:
           submodules: true
