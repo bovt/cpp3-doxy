@@ -9,7 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "Doxygen install"
       - run: sudo apt-get install -y doxygen
       - uses: actions/checkout@v2
         with:
