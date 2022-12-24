@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: sudo apt-get install -y doxygen
+      - run: doxygen Doxyfile
       - uses: actions/checkout@v2
         with:
           submodules: true
@@ -19,10 +20,13 @@ jobs:
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.5
       - name: Deploy docs
+        uses: DenverCoder1/doxygen-github-pages-action@v1.2.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./doc
+          publish_dir: ./docs/html
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
