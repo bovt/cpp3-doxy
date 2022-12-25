@@ -18,10 +18,8 @@ jobs:
       - run: cmake --build . --target package
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.5
-      - run: ls
-      - run: echo "-----------------"
-      - run: ls ./doc/
-      - run: cd doc
+      - run: ls /doc/
+      - run: cd /doc
       - run: ls
       - name: Deploy docs v2
         uses: peaceiris/actions-gh-pages@v3
