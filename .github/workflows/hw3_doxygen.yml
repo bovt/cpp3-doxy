@@ -18,10 +18,11 @@ jobs:
       - run: cmake --build . --target package
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.5
-      - name: Deploy docs v1
-        uses: DenverCoder1/doxygen-github-pages-action@v1.2.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - run: ls
+      - run: echo "-----------------"
+      - run: ls ./doc/
+      - run: cd doc
+      - run: ls
       - name: Deploy docs v2
         uses: peaceiris/actions-gh-pages@v3
         with:
