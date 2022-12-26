@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">hw3_doxygen
-   &#160;<span id="projectnumber">0.0.24</span>
+   &#160;<span id="projectnumber">0.0.25</span>
    </div>
   </td>
  </tr>
@@ -76,7 +76,7 @@ $(function() {
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;tuple&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<a class="code" href="gmock-actions__test_8cc.html#ac4f474c82e82cbb89ca7c36dd52be0ed">std::enable_if_t&lt;std::is_integral&lt;T&gt;::value</a>, std::string&gt; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;std::enable_if_t&lt;std::is_integral&lt;T&gt;::value, std::string&gt; </div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="print__ip_8h.html#ae54f4b932792a7d2f4a56cefd5ac595e">   14</a></span>&#160;<a class="code" href="print__ip_8h.html#ae54f4b932792a7d2f4a56cefd5ac595e">print_ip</a>(<span class="keyword">const</span> T&amp; t)</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    std::stringstream res;</div>
@@ -138,10 +138,9 @@ $(function() {
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> ...Args&gt;</div>
 <div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="print__ip_8h.html#a6d44343bcc65bb3da6472758a1c8e8b3">   89</a></span>&#160;std::string <a class="code" href="print__ip_8h.html#ae54f4b932792a7d2f4a56cefd5ac595e">print_ip</a>(<span class="keyword">const</span> std::tuple&lt;Args...&gt; &amp;t)</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    constexpr <span class="keyword">auto</span> size = std::tuple_size&lt;std::tuple&lt;Args...&gt;&gt;<a class="code" href="gmock-actions__test_8cc.html#ac4f474c82e82cbb89ca7c36dd52be0ed">::value</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    constexpr <span class="keyword">auto</span> size = std::tuple_size&lt;std::tuple&lt;Args...&gt;&gt;::value;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacedetail.html#a9f530f296a07e777c4a4793f7edd3442">detail::print_ip</a>(t, std::make_index_sequence&lt;size&gt;{});</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
-<div class="ttc" id="agmock-actions__test_8cc_html_ac4f474c82e82cbb89ca7c36dd52be0ed"><div class="ttname"><a href="gmock-actions__test_8cc.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a></div><div class="ttdeci">int value</div><div class="ttdef"><b>Definition:</b> gmock-actions_test.cc:1713</div></div>
 <div class="ttc" id="anamespacedetail_html"><div class="ttname"><a href="namespacedetail.html">detail</a></div><div class="ttdef"><b>Definition:</b> print_ip.h:60</div></div>
 <div class="ttc" id="anamespacedetail_html_a9f530f296a07e777c4a4793f7edd3442"><div class="ttname"><a href="namespacedetail.html#a9f530f296a07e777c4a4793f7edd3442">detail::print_ip</a></div><div class="ttdeci">std::string print_ip(Tuple t, std::index_sequence&lt; I... &gt;)</div><div class="ttdoc">Печать ip-адреса из элементов std::tuple (реализация)</div><div class="ttdef"><b>Definition:</b> print_ip.h:68</div></div>
 <div class="ttc" id="aprint__ip_8h_html_ae54f4b932792a7d2f4a56cefd5ac595e"><div class="ttname"><a href="print__ip_8h.html#ae54f4b932792a7d2f4a56cefd5ac595e">print_ip</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_integral&lt; T &gt;::value, std::string &gt; print_ip(const T &amp;t)</div><div class="ttdoc">Печать ip-адреса из произвольного целочисленного типа</div><div class="ttdef"><b>Definition:</b> print_ip.h:14</div></div>
