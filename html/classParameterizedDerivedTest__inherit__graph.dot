@@ -8,9 +8,6 @@ digraph "ParameterizedDerivedTest"
   Node2 [label="NonParameterizedBaseTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNonParameterizedBaseTest.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="testing::Test",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtesting_1_1Test.html",tooltip=" "];
-  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node4 [label="testing::WithParamInterface\l\< int \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtesting_1_1WithParamInterface.html",tooltip=" "];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

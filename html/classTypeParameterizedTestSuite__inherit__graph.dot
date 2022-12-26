@@ -8,6 +8,4 @@ digraph "TypeParameterizedTestSuite&lt; T &gt;"
   Node2 [label="testing::Test",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtesting_1_1Test.html",tooltip=" "];
   Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="Test",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

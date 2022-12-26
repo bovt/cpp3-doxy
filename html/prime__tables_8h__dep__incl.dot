@@ -1,0 +1,13 @@
+digraph "_deps/googletest-src/googletest/samples/prime_tables.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="_deps/googletest-src\l/googletest/samples/prime\l_tables.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="_deps/googletest-src\l/googletest/samples/sample6\l_unittest.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sample6__unittest_8cc.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="_deps/googletest-src\l/googletest/samples/sample7\l_unittest.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sample7__unittest_8cc.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="_deps/googletest-src\l/googletest/samples/sample8\l_unittest.cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sample8__unittest_8cc.html",tooltip=" "];
+}

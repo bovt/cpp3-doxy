@@ -7,5 +7,4 @@ digraph "testing::internal::FlatTupleBase&lt; FlatTuple&lt; T... &gt;, IndexSequ
   Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="testing::internal::\lFlatTupleElemBase\< FlatTuple\l\< T... \>, Idx \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtesting_1_1internal_1_1FlatTupleElemBase.html",tooltip=" "];
   Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

@@ -8,6 +8,4 @@ digraph "gtest_xml_outfiles_test.GTestXMLOutFilesTest"
   Node2 [label="gtest_xml_test_utils.GTest\lXMLTestCase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgtest__xml__test__utils_1_1GTestXMLTestCase.html",tooltip=" "];
   Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="gtest_test_utils.TestCase",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

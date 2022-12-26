@@ -4,5 +4,5 @@ digraph "Иерархия классов. Графический вид."
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="testing::internal::\lDoAllAction\< FinalAction \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtesting_1_1internal_1_1DoAllAction_3_01FinalAction_01_4.html",tooltip=" "];
+  Node0 [label="testing::internal::\lDoAllAction\< InitialAction,\l OtherActions... \>::UserConstructorTag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtesting_1_1internal_1_1DoAllAction_3_01InitialAction_00_01OtherActions_8_8_8_01_4_1_1UserConstructorTag.html",tooltip=" "];
 }

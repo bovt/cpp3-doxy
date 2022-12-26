@@ -7,5 +7,4 @@ digraph "testing::internal::UniversalTersePrinter&lt; char * &gt;"
   Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="testing::internal::\lUniversalTersePrinter\l\< const char * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtesting_1_1internal_1_1UniversalTersePrinter_3_01const_01char_01_5_01_4.html",tooltip=" "];
   Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

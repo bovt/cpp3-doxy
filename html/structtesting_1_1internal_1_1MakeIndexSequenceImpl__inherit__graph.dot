@@ -9,5 +9,4 @@ digraph "testing::internal::MakeIndexSequenceImpl&lt; N &gt;"
   Node2 [label="DoubleSequence\< N \l% 2==1, MakeIndexSequenceImpl\l\< N/2 \>::type, N/2 \>::type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="DoubleSequence::type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }
