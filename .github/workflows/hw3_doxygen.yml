@@ -18,7 +18,7 @@ jobs:
       - run: cmake --build . --target package
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@1.9.5
-        with
+        with:
           working-directory: './'
       - run: ls ./doc 
       - run: mkdir ./docs 
