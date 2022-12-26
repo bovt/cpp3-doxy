@@ -20,10 +20,10 @@ jobs:
         uses: mattnotmitt/doxygen-action@1.9.5
         with:
           working-directory: './'
-      - run: ls ./doc 
       - run: mkdir ./docs 
       - run: mkdir ./docs/html 
       - run: echo test > ./docs/html/index.html
+      - run: doxygen ./Doxyfile
       - run: ls ./docs/html 
       - name: Deploy docs v2
         uses: peaceiris/actions-gh-pages@v3
