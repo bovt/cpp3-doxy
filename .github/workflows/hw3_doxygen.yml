@@ -16,8 +16,6 @@ jobs:
       - run: cmake . -DPATCH_VERSION=${{ github.run_number }}
       - run: cmake --build .
       - run: cmake --build . --target package
-      - name: Doxygen Action
-        uses: mattnotmitt/doxygen-action@1.9.5
       - run: mkdir ./docs 
       - run: mkdir ./docs/html 
       - run: echo test > ./docs/html/index.html
