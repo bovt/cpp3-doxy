@@ -19,16 +19,6 @@ target_link_libraries(doxy -static-libgcc -static-libstdc++)
 # add_subdirectory(test)
 install(TARGETS doxy RUNTIME DESTINATION bin)
 
-# target doc
-find_package(Doxygen QUIET)
-if(DOXYGEN_FOUND)
-    configure_file(Doxyfile.in ${CMAKE_BINARY_DIR}/Doxyfile)
-    add_custom_target(doc COMMAND ${DOXYGEN_EXECUTABLE} ${CMAKE_BINARY_DIR}/Doxyfile)
-    message(STATUS "INFO: doxygen found - target \"doc\" must be available")
-else()
-    message(STATUS "WARNING: doxygen not found - target \"doc\" will not be available")
-endif()
-
 #target package
 set(CPACK_GENERATOR DEB)
 set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
