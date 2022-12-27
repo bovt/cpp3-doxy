@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['c_5fversion_2',['C_VERSION',['../CMakeCCompilerId_8c.html#adaee3ee7c5a7a22451ea25e762e1d7d5',1,'CMakeCCompilerId.c']]],
-  ['cmakeccompilerid_2ec_3',['CMakeCCompilerId.c',['../CMakeCCompilerId_8c.html',1,'']]],
-  ['cmakecxxcompilerid_2ecpp_4',['CMakeCXXCompilerId.cpp',['../CMakeCXXCompilerId_8cpp.html',1,'']]],
-  ['compiler_5fid_5',['COMPILER_ID',['../CMakeCCompilerId_8c.html#a81dee0709ded976b2e0319239f72d174',1,'COMPILER_ID():&#160;CMakeCCompilerId.c'],['../CMakeCXXCompilerId_8cpp.html#a81dee0709ded976b2e0319239f72d174',1,'COMPILER_ID():&#160;CMakeCXXCompilerId.cpp']]],
-  ['cpp3_2ddoxy_6',['cpp3-doxy',['../md_README.html',1,'']]],
-  ['cxx_5fstd_7',['CXX_STD',['../CMakeCXXCompilerId_8cpp.html#a34cc889e576a1ae6c84ae9e0a851ba21',1,'CMakeCXXCompilerId.cpp']]]
+  ['print_5fip_2',['print_ip',['../print__ip_8h.html#ae54f4b932792a7d2f4a56cefd5ac595e',1,'print_ip(const T &amp;t):&#160;print_ip.h'],['../print__ip_8h.html#af7b84a3e9cc4cea382de66b3eb25491d',1,'print_ip(const T &amp;t):&#160;print_ip.h'],['../print__ip_8h.html#a74f367e0807868043b1b766f17d555c6',1,'print_ip(const std::string &amp;t):&#160;print_ip.h'],['../print__ip_8h.html#a9f530f296a07e777c4a4793f7edd3442',1,'detail::print_ip()'],['../print__ip_8h.html#a6d44343bcc65bb3da6472758a1c8e8b3',1,'print_ip(const std::tuple&lt; Args... &gt; &amp;t):&#160;print_ip.h']]],
+  ['print_5fip_2eh_3',['print_ip.h',['../print__ip_8h.html',1,'']]]
 ];
