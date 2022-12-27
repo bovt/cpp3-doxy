@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>cpp3-doxy: src/main.cpp File Reference</title>
+<title>cpp3-doxy: detail Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -59,65 +59,66 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
-</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">main.cpp File Reference</div>  </div>
+<div class="title">detail Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Файл с реализацией основного потока приложения  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;list&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;tuple&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="print__ip_8h_source.html">print_ip.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for main.cpp:</div>
-<div class="dyncontent">
-<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#asrc_2main_8cpp" alt=""/></div>
-<map name="asrc_2main_8cpp" id="asrc_2main_8cpp">
-<area shape="rect" title="Файл с реализацией основного потока приложения" alt="" coords="175,5,281,32"/>
-<area shape="rect" title=" " alt="" coords="5,80,85,107"/>
-<area shape="rect" title=" " alt="" coords="109,80,152,107"/>
-<area shape="rect" title=" " alt="" coords="148,155,207,181"/>
-<area shape="rect" title=" " alt="" coords="330,155,385,181"/>
-<area shape="rect" title=" " alt="" coords="385,80,447,107"/>
-<area shape="rect" href="print__ip_8h.html" title="Файл с объявлением и реализацией функций печати ip&#45;адреса" alt="" coords="227,80,309,107"/>
-<area shape="rect" title=" " alt="" coords="231,155,305,181"/>
-</map>
-</div>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f530f296a07e777c4a4793f7edd3442"><td class="memTemplParams" colspan="2">template&lt;typename Tuple , size_t... I&gt; </td></tr>
+<tr class="memitem:a9f530f296a07e777c4a4793f7edd3442"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacedetail.html#a9f530f296a07e777c4a4793f7edd3442">print_ip</a> (Tuple t, std::index_sequence&lt; I... &gt;)</td></tr>
+<tr class="memdesc:a9f530f296a07e777c4a4793f7edd3442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Печать ip-адреса из элементов std::tuple (реализация)  <a href="namespacedetail.html#a9f530f296a07e777c4a4793f7edd3442">More...</a><br /></td></tr>
+<tr class="separator:a9f530f296a07e777c4a4793f7edd3442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Файл с реализацией основного потока приложения </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a9f530f296a07e777c4a4793f7edd3442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f530f296a07e777c4a4793f7edd3442">&#9670;&nbsp;</a></span>print_ip()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tuple , size_t... I&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int main </td>
+          <td class="memname">std::string detail::print_ip </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">Tuple&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::index_sequence&lt; I... &gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Печать ip-адреса из элементов std::tuple (реализация) </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Tuple</td><td>тип tuple </td></tr>
+    <tr><td class="paramname">I</td><td>последовательность позиций элементов tuple </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>tuple </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>строковое представление ip-адреса </dd></dl>
 
 </div>
 </div>
