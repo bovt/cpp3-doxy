@@ -12,12 +12,12 @@ set(CMAKE_EXE_LINKER_FLAGS " -static")
 include_directories("src/")
 include_directories("include/")
 
-add_executable(doxy ${SRC_PATH}/main.cpp)
-target_link_libraries(doxy -static-libgcc -static-libstdc++)
+add_executable(print_ip ${SRC_PATH}/main.cpp)
+target_link_libraries(print_ip -static-libgcc -static-libstdc++)
 
 # enable_testing()
 # add_subdirectory(test)
-install(TARGETS doxy RUNTIME DESTINATION bin)
+install(TARGETS print_ip RUNTIME DESTINATION bin)
 
 #target package
 set(CPACK_GENERATOR DEB)
